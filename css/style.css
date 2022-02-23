@@ -1,0 +1,141 @@
+/* main styles */
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: source sans-serif;
+}
+
+#logo {
+    display: block;
+    margin: auto;
+    padding: 50px;
+    width: 20%;
+
+}
+
+header{
+    background: url(../img/backroundheader.jpeg);
+    background-size: cover;
+}
+
+.topnav {
+padding: 10px;
+overflow: hidden;
+background: #7fffd4;
+letter-spacing: 2px;
+}
+
+ul li {
+    display: inline;
+    list-style-type: none;
+    font-family: 'Caveat' , cursive;
+    font-size: 22px;
+}
+a{
+    text-decoration: none;
+    padding: 15px;
+    color: #e2b77e;
+}
+
+iframe {
+    padding: 160;
+    display: block;
+    margin: auto;
+}
+
+.merch {
+    padding: 40px;
+    text-align: center;
+    font-family: 'rocksalt', cursive;
+}
+
+#merch {
+    color: #106d4e;
+}
+
+.merchItems {
+    width: 20%;
+
+}
+
+.main-section {
+    background: url('../img/bgpattern.jpeg') no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+}
+
+h3 {
+    color: #e2b77e;
+    font-family: 'rocksalt', cursive;
+    font-size: 30px;
+    text-align: center;
+    padding: 20px;
+}
+
+h4 {
+    font-family: 'Caveat', cursive;
+    color: #929228;
+    font-size: 25px;
+
+}
+
+.blogSection {
+    float: left;
+    padding: 50px;
+    padding-left: 350px;
+    width: 800px;
+    height: 480px;
+    background-color: #d8b310;
+}
+
+.sidebar {
+    float: right;
+    padding: 40px;
+    width: 620;
+    height: 500;
+    background-color: #f778cc;
+}
+
+.blogStyles {
+    height: 500px;
+
+}
+
+.blogImage {
+    float: left;
+    padding: 5px 10px;
+
+}
+
+p {
+    padding: 10px;
+}
+
+/* media queries */
+@media screen and (
+    max-width: 1082px){
+
+    }
+
+    @media screen and (max-width: 1082px) and (min-width: 100px){
+      .blogSection {
+          float: none;
+          clear: left;
+          width: 100%;
+          height: 150px;
+          padding: 30px 0;
+      }
+      
+      .sidebar {
+          float: none;
+          clear: right;
+          width: 100%;
+          padding: 20px 0;
+          height: 150px;
+      }
+    }
